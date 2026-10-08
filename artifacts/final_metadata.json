@@ -1,0 +1,116 @@
+{
+  "best_knn_params": {
+    "n_neighbors": 11,
+    "weights": "distance",
+    "p": 1,
+    "leaf_size": 21
+  },
+  "best_tree_params": {
+    "max_depth": 10,
+    "min_samples_split": 34,
+    "min_samples_leaf": 17,
+    "max_features": null,
+    "criterion": "friedman_mse",
+    "splitter": "best"
+  },
+  "baseline_test_metrics": {
+    "model": "Baseline LR — TEST",
+    "RMSE": 411.45445847572284,
+    "MAE": 312.53129792458947,
+    "R²": 0.5862925700677417
+  },
+  "knn_test_metrics": {
+    "model": "kNN (Optuna) — TEST",
+    "RMSE": 313.45160266435244,
+    "MAE": 212.99895911741078,
+    "R²": 0.7599007714004373
+  },
+  "tree_test_metrics": {
+    "model": "Tree — TEST",
+    "RMSE": 321.9819904104274,
+    "MAE": 213.5166245133491,
+    "R²": 0.7466546503872722
+  },
+  "feature_importances": [
+    {
+      "feature": "temperature",
+      "importance": 0.3548278447786716
+    },
+    {
+      "feature": "time_period_night",
+      "importance": 0.1755684225710698
+    },
+    {
+      "feature": "humidity",
+      "importance": 0.12599228538124285
+    },
+    {
+      "feature": "time_period_evening",
+      "importance": 0.08597916857609385
+    },
+    {
+      "feature": "functioning_day_No",
+      "importance": 0.08422650765404432
+    },
+    {
+      "feature": "time_period_late_evening",
+      "importance": 0.04842786769460665
+    },
+    {
+      "feature": "seasons_Winter",
+      "importance": 0.036778719830546584
+    },
+    {
+      "feature": "solar_radiation_mjm2",
+      "importance": 0.029547677985023852
+    },
+    {
+      "feature": "dew_point_temperature",
+      "importance": 0.016380057023890022
+    },
+    {
+      "feature": "functioning_day_Yes",
+      "importance": 0.013351462512260161
+    },
+    {
+      "feature": "rainfallmm",
+      "importance": 0.011790523439195002
+    },
+    {
+      "feature": "seasons_Autumn",
+      "importance": 0.0072883535071261735
+    },
+    {
+      "feature": "visibility_10m",
+      "importance": 0.0035718404576400506
+    },
+    {
+      "feature": "time_period_morning",
+      "importance": 0.002296209964480994
+    },
+    {
+      "feature": "wind_speed_ms",
+      "importance": 0.0014124292001103215
+    },
+    {
+      "feature": "seasons_Spring",
+      "importance": 0.0012305130873940264
+    },
+    {
+      "feature": "seasons_Summer",
+      "importance": 0.0007297837912697865
+    },
+    {
+      "feature": "snowfall_cm",
+      "importance": 0.0004164285625344799
+    },
+    {
+      "feature": "holiday_Holiday",
+      "importance": 0.00018390398279941335
+    },
+    {
+      "feature": "holiday_No Holiday",
+      "importance": 0.0
+    }
+  ]
+}
